@@ -1,8 +1,14 @@
 import { Meta, Story } from "@storybook/blocks";
 import { Row, Col } from "react-awesome-styled-grid";
+
 import IntroductionCover from "../../assets/intro-banner.png";
+import IntroCover_Foundations from "../../assets/intro_cover_foundations.png";
+import IntroCover_Components from "../../assets/intro_cover_components.png";
+import IntroCover_Frameworks from "../../assets/intro_cover_frameworks.png";
+
 import { Box } from "../../components/box";
 import { Text } from "../../components/text";
+import { Heading } from "../../components/Heading";
 
 <Meta title="Introduction/Get started" />
 
@@ -12,7 +18,8 @@ import { Text } from "../../components/text";
         </Col>
         <Row justify="center">
           <Col xs={3} md={2}>
-            <Text>Foundations</Text>
+           <img src={IntroCover_Foundations} />
+           <Heading level={3}>Foundations</Heading>
             <Text>
               Foundations is the visual elements that create cohesive and
               engaging end-to-end user experiences. They are used across
@@ -20,7 +27,8 @@ import { Text } from "../../components/text";
             </Text>
           </Col>
           <Col xs={4} md={2}>
-            <Text>Components</Text>
+           <img src={IntroCover_Components} />
+           <Heading level={3}>Components</Heading>
             <Text>
               Components are the reusable building blocks of our design system.
               Each component meets a specific interaction or UI need, and has
@@ -29,7 +37,8 @@ import { Text } from "../../components/text";
             </Text>
           </Col>
           <Col xs={4} md={2}>
-            <Text>Frameworks</Text>
+           <img src={IntroCover_Frameworks} />
+           <Heading level={3}>Frameworks</Heading>
             <Text>
               Frameworks are unique libraries with a universal purpose. They
               lean on existing components and patterns but contain specific
