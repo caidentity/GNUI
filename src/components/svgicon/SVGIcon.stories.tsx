@@ -6,7 +6,7 @@ import { Text } from "../text";
 import { SVGIcon } from "./SVGIcon";
 
 const meta: Meta = {
-  title: "Components/SVGIcon",
+  title: "Foundation/Iconography/SVGIcon",
   component: SVGIcon,
 };
 

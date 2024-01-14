@@ -4,7 +4,7 @@ import { GnuiContainer } from "../container";
 import { Heading } from "./Heading";
 
 const meta: Meta = {
-  title: "Typography/Heading",
+  title: "Foundation/Typography/Heading",
   component: Heading,
 };
 

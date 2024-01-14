@@ -3,7 +3,7 @@ import { GnuiContainer } from "../container";
 import { Text } from "./Text";
 
 const meta: Meta = {
-  title: "Typography/Text",
+  title: "Foundation/Typography/Text",
   component: Text,
 };
 
