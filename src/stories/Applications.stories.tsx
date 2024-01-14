@@ -248,19 +248,11 @@ export const Default: StoryObj = {
                 trigger={<Button severity="low" icon="menu" size="md" />}
               >
                 <Navigation.Container popoverMenu>
-                  <Navigation.Item
-                    as="a"
-                    href="http://google.com"
-                    target="_blank"
-                  >
+                  <Navigation.Item as="a" href="http://.com" target="_blank">
                     <SVGIcon name="edit" />
                     <Text tag="span">Edit Application</Text>
                   </Navigation.Item>
-                  <Navigation.Item
-                    as="a"
-                    href="http://google.com"
-                    target="_blank"
-                  >
+                  <Navigation.Item as="a" href="http://.com" target="_blank">
                     <SVGIcon name="trash" />
                     <Text tag="span">Delete</Text>
                   </Navigation.Item>
@@ -371,19 +363,11 @@ export const Default: StoryObj = {
                 trigger={<Button severity="low" icon="menu" size="md" />}
               >
                 <Navigation.Container popoverMenu>
-                  <Navigation.Item
-                    as="a"
-                    href="http://google.com"
-                    target="_blank"
-                  >
+                  <Navigation.Item as="a" href="http://.com" target="_blank">
                     <SVGIcon name="edit" />
                     <Text tag="span">Edit Application</Text>
                   </Navigation.Item>
-                  <Navigation.Item
-                    as="a"
-                    href="http://google.com"
-                    target="_blank"
-                  >
+                  <Navigation.Item as="a" href="http://.com" target="_blank">
                     <SVGIcon name="trash" />
                     <Text tag="span">Delete</Text>
                   </Navigation.Item>

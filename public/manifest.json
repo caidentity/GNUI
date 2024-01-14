@@ -1,6 +1,6 @@
 {
-  "short_name": "GNUI",
-  "name": "General Nordcloud UI library",
+  "short_name": "OrigamiUI",
+  "name": "Ikigai's Design system",
   "icons": [
     {
       "src": "favicon.ico",

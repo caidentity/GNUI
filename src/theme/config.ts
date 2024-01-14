@@ -119,8 +119,9 @@ export type ThemeColors = keyof typeof color.support;
 
 export const typography = {
   fonts: {
-    body: "IBM Plex Sans, sans-serif",
-    heading: "IBM Plex Sans, sans-serif",
+    body: "Inter, system-ui, -apple-system, Helevetica Neue, Arial, sans-serif",
+    heading:
+      "Inter, system-ui, -apple-system, Helevetica Neue, Arial, sans-serif",
   },
   fontSizes: ["0.625rem", "0.75rem", "1rem", "1.25rem", "1.5rem", "2rem"],
   fontWeights: [400, 500, 700],

@@ -1,15 +1,15 @@
 import { create } from "@storybook/theming/create";
-import logo from "../assets/nclogo.png";
+import logo from "../assets/origamilogo.png";
 
 export default create({
   base: "light",
-  brandTitle: "Storybook of General Nordcloud UI library",
-  brandUrl: "https://nordcloud.com/",
+  brandTitle: "Storybook of Ikigai design system library",
+  brandUrl: "https://ikigailabs.io",
   brandImage: logo,
   brandTarget: "_self",
 
-  colorPrimary: "#161632",
-  colorSecondary: "#ff2837",
+  colorPrimary: "#000",
+  colorSecondary: "#7822FF",
 
   // UI
   appBg: "white",
@@ -18,7 +18,8 @@ export default create({
   appBorderRadius: 4,
 
   // Typography
-  fontBase: '"Rubik", sans-serif',
+  fontBase:
+    '"Inter", system-ui, -apple-system, Helevetica Neue, Arial, sans-serif',
   fontCode: "monospace",
 
   // Text colors
@@ -26,9 +27,9 @@ export default create({
   textInverseColor: "rgba(255,255,255,0.9)",
 
   // Toolbar default and active colors
-  barTextColor: "white",
-  barSelectedColor: "silver",
-  barBg: "#161632",
+  barTextColor: "#A2A2AD",
+  barSelectedColor: "#7822FF",
+  barBg: "#FFFFFF",
 
   // Form colors
   inputBg: "white",

@@ -1,14 +1,6 @@
-[![PRs Welcome](https://img.shields.io/badge/prs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+# Ikigai Origami Design system
 
-<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-
-[![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors)
-
-<!-- ALL-CONTRIBUTORS-BADGE:END -->
-
-# General Nordcloud UI
-
-This repo contains the Nordcloud Design System - a collection of reusable React components used in Nordcloud's SaaS products.
+This repo contains the Ikigai design system - a collection of reusable React components used in Ikigai's products.
 
 ## Components
 
@@ -16,16 +8,6 @@ This repo contains the Nordcloud Design System - a collection of reusable React 
 2. Storybook (`/src/stories`)
 
 ## Install
-
-```bash
-npm install @nordcloud/gnui
-```
-
-or
-
-```bash
-yarn add @nordcloud/gnui
-```
 
 Make sure you have a proper versions of required packages installed, they are specified in `peerDependencies` field inside `package.json`.
 
