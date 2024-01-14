@@ -1,0 +1,54 @@
+import { Meta, Story } from "@storybook/blocks";
+import { Row, Col } from "react-awesome-styled-grid";
+import IntroductionCover from "../../assets/intro-banner.png";
+import { Box } from "../../components/box";
+import { Text } from "../../components/text";
+
+<Meta title="Get started" />
+
+      <Box>
+        <Col xs={4} md={12}>
+          <img src={IntroductionCover} />
+        </Col>
+        <Row justify="center">
+          <Col xs={3} md={2}>
+            <Text>Foundations</Text>
+            <Text>
+              Foundations is the visual elements that create cohesive and
+              engaging end-to-end user experiences. They are used across
+              components and experiences.
+            </Text>
+          </Col>
+          <Col xs={4} md={2}>
+            <Text>Components</Text>
+            <Text>
+              Components are the reusable building blocks of our design system.
+              Each component meets a specific interaction or UI need, and has
+              been specifically created to work together to create patterns and
+              intuitive user experiences.
+            </Text>
+          </Col>
+          <Col xs={4} md={2}>
+            <Text>Frameworks</Text>
+            <Text>
+              Frameworks are unique libraries with a universal purpose. They
+              lean on existing components and patterns but contain specific
+              components and patterns.
+            </Text>
+          </Col>
+        </Row>
+        <Col xs={4} md={6} lg={4}>
+          <Text>Resources</Text>
+        </Col>
+        <Row justify="center">
+          <Col xs={3} md={2}>
+            <Text>Figma</Text>
+          </Col>
+          <Col xs={4} md={2}>
+            <Text>Confluence</Text>
+          </Col>
+          <Col xs={4} md={2}>
+            <Text>Jira</Text>
+          </Col>
+        </Row>
+      </Box>
